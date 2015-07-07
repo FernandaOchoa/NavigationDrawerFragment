@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_perfil"
+            android:checked="true"
+            android:icon="@drawable/ic_account_circle_black"
+            android:title="@string/perfil" />
+        <item
+            android:id="@+id/nav_favoritos"
+            android:icon="@drawable/ic_favorite_black"
+            android:title="@string/favoritos" />
+        <item
+            android:id="@+id/nav_amigos"
+            android:icon="@drawable/ic_people_black"
+            android:title="@string/amigos" />
+        <item
+            android:id="@+id/nav_conf"
+            android:icon="@drawable/ic_vpn_black"
+            android:title="@string/conf" />
+        <item
+            android:id="@+id/nav_ayuda"
+            android:icon="@drawable/ic_help"
+            android:title="@string/ayuda" />
+
+        <!-- Sección de configuración -->
+        <item
+            android:id="@+id/configuration_section"
+            android:title="@string/configuracion_item">
+            <menu>
+                <item
+                    android:id="@+id/nav_log_out"
+                    android:icon="@android:drawable/ic_lock_power_off"
+                    android:title="@string/log_out_item" />
+            </menu>
+        </item>
+    </group>
+
+</menu>
